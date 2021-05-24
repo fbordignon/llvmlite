@@ -1,5 +1,7 @@
 from ctypes import c_void_p, c_char_p, c_bool, POINTER
 
+from .ffi import *
+
 from llvmlite.binding import ffi
 from llvmlite.binding.common import _encode_string
 
